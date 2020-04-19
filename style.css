@@ -52,7 +52,7 @@ body {
 	height: 100%;
 	width: 100%;
 	background: #010309 url(headshot.jpg) no-repeat center top;
-	background-size: cover;
+	background-size: 50%;
 }
 
 .main-wrapper {
@@ -66,4 +66,10 @@ body {
 .main p {
 	
 	text-indent: -9999px;
+}
+
+.button-div {
+    position:fixed;
+    bottom:20px;
+    width: 100vw;
 }
